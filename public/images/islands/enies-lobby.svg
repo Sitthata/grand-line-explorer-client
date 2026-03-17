@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#60BFF5"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#60BFF5" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#1a1a2e" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="30%" r="40%">
+      <stop offset="0%" stop-color="#60BFF5" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#1a1a2e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <!-- Radial light effect -->
+  <rect width="600" height="400" fill="url(#sun)"/>
+  <!-- Decorative circles -->
+  <circle cx="300" cy="200" r="140" fill="none" stroke="#60BFF5" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="300" cy="200" r="170" fill="none" stroke="#60BFF5" stroke-width="0.5" opacity="0.1"/>
+  <circle cx="300" cy="200" r="200" fill="none" stroke="#60BFF5" stroke-width="0.3" opacity="0.08"/>
+  <!-- Rays of light (Enies Lobby never has night) -->
+  <line x1="300" y1="0" x2="300" y2="100" stroke="#60BFF5" stroke-width="0.5" opacity="0.2"/>
+  <line x1="150" y1="30" x2="230" y2="130" stroke="#60BFF5" stroke-width="0.5" opacity="0.15"/>
+  <line x1="450" y1="30" x2="370" y2="130" stroke="#60BFF5" stroke-width="0.5" opacity="0.15"/>
+  <line x1="50" y1="100" x2="160" y2="160" stroke="#60BFF5" stroke-width="0.5" opacity="0.1"/>
+  <line x1="550" y1="100" x2="440" y2="160" stroke="#60BFF5" stroke-width="0.5" opacity="0.1"/>
+  <!-- Waves at bottom -->
+  <path d="M0 350 Q50 330 100 350 Q150 370 200 350 Q250 330 300 350 Q350 370 400 350 Q450 330 500 350 Q550 370 600 350 L600 400 L0 400 Z" fill="#60BFF5" opacity="0.12"/>
+  <path d="M0 370 Q50 355 100 370 Q150 385 200 370 Q250 355 300 370 Q350 385 400 370 Q450 355 500 370 Q550 385 600 370 L600 400 L0 400 Z" fill="#60BFF5" opacity="0.08"/>
+  <!-- Corner brackets -->
+  <path d="M40 40 L40 70" stroke="#80d0f8" stroke-width="1.5" opacity="0.4"/>
+  <path d="M40 40 L70 40" stroke="#80d0f8" stroke-width="1.5" opacity="0.4"/>
+  <path d="M560 40 L560 70" stroke="#80d0f8" stroke-width="1.5" opacity="0.4"/>
+  <path d="M560 40 L530 40" stroke="#80d0f8" stroke-width="1.5" opacity="0.4"/>
+  <path d="M40 360 L40 330" stroke="#80d0f8" stroke-width="1.5" opacity="0.4"/>
+  <path d="M40 360 L70 360" stroke="#80d0f8" stroke-width="1.5" opacity="0.4"/>
+  <path d="M560 360 L560 330" stroke="#80d0f8" stroke-width="1.5" opacity="0.4"/>
+  <path d="M560 360 L530 360" stroke="#80d0f8" stroke-width="1.5" opacity="0.4"/>
+  <!-- Text -->
+  <text x="300" y="200" font-family="Georgia, serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle" letter-spacing="3">Enies Lobby</text>
+  <text x="300" y="240" font-family="Georgia, serif" font-size="18" fill="#90d4f7" text-anchor="middle" letter-spacing="6">Grand Line</text>
+  <!-- Subtle horizontal rule -->
+  <line x1="210" y1="255" x2="390" y2="255" stroke="#60BFF5" stroke-width="1" opacity="0.3"/>
+</svg>

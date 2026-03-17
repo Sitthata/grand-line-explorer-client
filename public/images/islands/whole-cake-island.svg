@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#AF6528"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#AF6528" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#d4845a" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#AF6528" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <!-- Decorative swirl patterns (candy/cake themed) -->
+  <circle cx="100" cy="80" r="30" fill="none" stroke="#d4845a" stroke-width="0.5" opacity="0.2"/>
+  <circle cx="100" cy="80" r="20" fill="none" stroke="#d4845a" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="500" cy="320" r="35" fill="none" stroke="#d4845a" stroke-width="0.5" opacity="0.2"/>
+  <circle cx="500" cy="320" r="22" fill="none" stroke="#d4845a" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="520" cy="80" r="18" fill="none" stroke="#d4845a" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="80" cy="330" r="25" fill="none" stroke="#d4845a" stroke-width="0.5" opacity="0.15"/>
+  <!-- Zigzag decoration top -->
+  <path d="M0 50 L20 35 L40 50 L60 35 L80 50 L100 35 L120 50 L140 35 L160 50 L180 35 L200 50 L220 35 L240 50 L260 35 L280 50 L300 35 L320 50 L340 35 L360 50 L380 35 L400 50 L420 35 L440 50 L460 35 L480 50 L500 35 L520 50 L540 35 L560 50 L580 35 L600 50" fill="none" stroke="#d4845a" stroke-width="1" opacity="0.15"/>
+  <!-- Zigzag decoration bottom -->
+  <path d="M0 350 L20 365 L40 350 L60 365 L80 350 L100 365 L120 350 L140 365 L160 350 L180 365 L200 350 L220 365 L240 350 L260 365 L280 350 L300 365 L320 350 L340 365 L360 350 L380 365 L400 350 L420 365 L440 350 L460 365 L480 350 L500 365 L520 350 L540 365 L560 350 L580 365 L600 350" fill="none" stroke="#d4845a" stroke-width="1" opacity="0.15"/>
+  <!-- Horizontal accent lines -->
+  <rect x="0" y="155" width="600" height="1" fill="url(#accent)"/>
+  <rect x="0" y="265" width="600" height="1" fill="url(#accent)"/>
+  <!-- Diamond shapes scattered -->
+  <polygon points="150,130 158,145 150,160 142,145" fill="none" stroke="#d4845a" stroke-width="0.8" opacity="0.25"/>
+  <polygon points="450,280 456,290 450,300 444,290" fill="none" stroke="#d4845a" stroke-width="0.8" opacity="0.25"/>
+  <!-- Text -->
+  <text x="300" y="195" font-family="Georgia, serif" font-size="40" font-weight="bold" fill="white" text-anchor="middle" letter-spacing="2">Whole Cake Island</text>
+  <text x="300" y="235" font-family="Georgia, serif" font-size="18" fill="#d4a070" text-anchor="middle" letter-spacing="6">New World</text>
+  <!-- Decorative rule -->
+  <line x1="200" y1="250" x2="400" y2="250" stroke="#d4845a" stroke-width="1" opacity="0.35"/>
+  <circle cx="200" cy="250" r="2" fill="#d4845a" opacity="0.35"/>
+  <circle cx="400" cy="250" r="2" fill="#d4845a" opacity="0.35"/>
+</svg>

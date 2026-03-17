@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#FFCE00"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFCE00" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffe066" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FFCE00" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="80%" cy="20%" r="35%">
+      <stop offset="0%" stop-color="#FFCE00" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#1a1a2e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <rect width="600" height="400" fill="url(#sunGlow)"/>
+  <!-- Desert dune shapes -->
+  <path d="M0 350 Q100 310 200 340 Q300 370 400 330 Q500 290 600 340 L600 400 L0 400 Z" fill="#FFCE00" opacity="0.08"/>
+  <path d="M0 370 Q80 345 180 365 Q280 385 380 355 Q480 325 600 365 L600 400 L0 400 Z" fill="#FFCE00" opacity="0.05"/>
+  <!-- Pyramid shapes (Alabasta = desert kingdom) -->
+  <polygon points="100,320 130,270 160,320" fill="none" stroke="#ffe066" stroke-width="0.8" opacity="0.2"/>
+  <polygon points="140,320 180,255 220,320" fill="none" stroke="#ffe066" stroke-width="0.8" opacity="0.15"/>
+  <!-- Star/compass points (navigation theme) -->
+  <polygon points="500,80 503,90 513,90 505,96 508,106 500,100 492,106 495,96 487,90 497,90" fill="#ffe066" opacity="0.15"/>
+  <circle cx="500" cy="93" r="18" fill="none" stroke="#ffe066" stroke-width="0.5" opacity="0.15"/>
+  <!-- Dot pattern (sand texture) -->
+  <circle cx="50" cy="120" r="1" fill="#ffe066" opacity="0.15"/>
+  <circle cx="150" cy="90" r="1" fill="#ffe066" opacity="0.12"/>
+  <circle cx="250" cy="110" r="1" fill="#ffe066" opacity="0.1"/>
+  <circle cx="350" cy="80" r="1" fill="#ffe066" opacity="0.12"/>
+  <circle cx="550" cy="140" r="1" fill="#ffe066" opacity="0.1"/>
+  <circle cx="70" cy="290" r="1" fill="#ffe066" opacity="0.1"/>
+  <circle cx="530" cy="280" r="1" fill="#ffe066" opacity="0.12"/>
+  <!-- Horizontal accents -->
+  <rect x="0" y="145" width="600" height="1" fill="url(#sand)"/>
+  <rect x="0" y="270" width="600" height="1" fill="url(#sand)"/>
+  <!-- Corner marks -->
+  <path d="M45 45 L45 70" stroke="#ffe066" stroke-width="1.2" opacity="0.3"/>
+  <path d="M45 45 L70 45" stroke="#ffe066" stroke-width="1.2" opacity="0.3"/>
+  <path d="M555 45 L555 70" stroke="#ffe066" stroke-width="1.2" opacity="0.3"/>
+  <path d="M555 45 L530 45" stroke="#ffe066" stroke-width="1.2" opacity="0.3"/>
+  <path d="M45 355 L45 330" stroke="#ffe066" stroke-width="1.2" opacity="0.3"/>
+  <path d="M45 355 L70 355" stroke="#ffe066" stroke-width="1.2" opacity="0.3"/>
+  <path d="M555 355 L555 330" stroke="#ffe066" stroke-width="1.2" opacity="0.3"/>
+  <path d="M555 355 L530 355" stroke="#ffe066" stroke-width="1.2" opacity="0.3"/>
+  <!-- Text -->
+  <text x="300" y="200" font-family="Georgia, serif" font-size="52" font-weight="bold" fill="white" text-anchor="middle" letter-spacing="4">Alabasta</text>
+  <text x="300" y="240" font-family="Georgia, serif" font-size="18" fill="#ffe699" text-anchor="middle" letter-spacing="6">Grand Line</text>
+  <!-- Decorative rule -->
+  <line x1="225" y1="255" x2="375" y2="255" stroke="#ffe066" stroke-width="1" opacity="0.3"/>
+  <circle cx="300" cy="255" r="2" fill="#ffe066" opacity="0.3"/>
+</svg>

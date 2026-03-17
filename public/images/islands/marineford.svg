@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#2E63A4"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2E63A4" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#1a1a2e" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <!-- Decorative geometric lines -->
+  <line x1="0" y1="80" x2="600" y2="80" stroke="#2E63A4" stroke-width="0.5" opacity="0.3"/>
+  <line x1="0" y1="320" x2="600" y2="320" stroke="#2E63A4" stroke-width="0.5" opacity="0.3"/>
+  <line x1="80" y1="0" x2="80" y2="400" stroke="#2E63A4" stroke-width="0.5" opacity="0.3"/>
+  <line x1="520" y1="0" x2="520" y2="400" stroke="#2E63A4" stroke-width="0.5" opacity="0.3"/>
+  <!-- Corner accents -->
+  <rect x="60" y="60" width="40" height="2" fill="#4a90d9" opacity="0.6"/>
+  <rect x="60" y="60" width="2" height="40" fill="#4a90d9" opacity="0.6"/>
+  <rect x="500" y="60" width="40" height="2" fill="#4a90d9" opacity="0.6"/>
+  <rect x="538" y="60" width="2" height="40" fill="#4a90d9" opacity="0.6"/>
+  <rect x="60" y="338" width="40" height="2" fill="#4a90d9" opacity="0.6"/>
+  <rect x="60" y="300" width="2" height="40" fill="#4a90d9" opacity="0.6"/>
+  <rect x="500" y="338" width="40" height="2" fill="#4a90d9" opacity="0.6"/>
+  <rect x="538" y="300" width="2" height="40" fill="#4a90d9" opacity="0.6"/>
+  <!-- Waves at bottom -->
+  <path d="M0 340 Q75 320 150 340 Q225 360 300 340 Q375 320 450 340 Q525 360 600 340 L600 400 L0 400 Z" fill="url(#wave)"/>
+  <path d="M0 360 Q75 340 150 360 Q225 380 300 360 Q375 340 450 360 Q525 380 600 360 L600 400 L0 400 Z" fill="#2E63A4" opacity="0.15"/>
+  <!-- Diamond accent -->
+  <polygon points="300,120 310,135 300,150 290,135" fill="none" stroke="#4a90d9" stroke-width="1" opacity="0.5"/>
+  <!-- Text -->
+  <text x="300" y="210" font-family="Georgia, serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle" letter-spacing="3">Marineford</text>
+  <text x="300" y="250" font-family="Georgia, serif" font-size="18" fill="#7ab0e0" text-anchor="middle" letter-spacing="6" text-transform="uppercase">Grand Line</text>
+  <!-- Subtle horizontal rule -->
+  <line x1="220" y1="265" x2="380" y2="265" stroke="#4a90d9" stroke-width="1" opacity="0.4"/>
+</svg>

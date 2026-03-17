@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#AF6528"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#AF6528" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#d4944a" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#AF6528" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <!-- Japanese-inspired cloud motifs -->
+  <path d="M60 100 Q80 80 100 100 Q120 80 140 100" fill="none" stroke="#d4944a" stroke-width="1" opacity="0.2"/>
+  <path d="M460 80 Q480 60 500 80 Q520 60 540 80" fill="none" stroke="#d4944a" stroke-width="1" opacity="0.2"/>
+  <path d="M80 310 Q100 290 120 310 Q140 290 160 310" fill="none" stroke="#d4944a" stroke-width="1" opacity="0.15"/>
+  <path d="M440 330 Q460 310 480 330 Q500 310 520 330" fill="none" stroke="#d4944a" stroke-width="1" opacity="0.15"/>
+  <!-- Mountain silhouettes (Wano is mountainous) -->
+  <path d="M0 380 L80 300 L120 340 L200 280 L260 330 L320 270 L380 320 L440 290 L500 340 L560 300 L600 350 L600 400 L0 400 Z" fill="#AF6528" opacity="0.1"/>
+  <path d="M0 390 L100 340 L180 360 L260 320 L340 355 L420 330 L500 360 L580 335 L600 360 L600 400 L0 400 Z" fill="#AF6528" opacity="0.07"/>
+  <!-- Torii gate outline (iconic Wano element) -->
+  <line x1="265" y1="105" x2="265" y2="155" stroke="#d4944a" stroke-width="1.5" opacity="0.2"/>
+  <line x1="335" y1="105" x2="335" y2="155" stroke="#d4944a" stroke-width="1.5" opacity="0.2"/>
+  <line x1="250" y1="108" x2="350" y2="108" stroke="#d4944a" stroke-width="2" opacity="0.25"/>
+  <line x1="255" y1="120" x2="345" y2="120" stroke="#d4944a" stroke-width="1" opacity="0.2"/>
+  <!-- Horizontal accent -->
+  <rect x="0" y="165" width="600" height="1" fill="url(#gold)"/>
+  <rect x="0" y="270" width="600" height="1" fill="url(#gold)"/>
+  <!-- Small circle accents -->
+  <circle cx="180" cy="200" r="3" fill="none" stroke="#d4944a" stroke-width="0.8" opacity="0.2"/>
+  <circle cx="420" cy="200" r="3" fill="none" stroke="#d4944a" stroke-width="0.8" opacity="0.2"/>
+  <!-- Text -->
+  <text x="300" y="215" font-family="Georgia, serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle" letter-spacing="3">Wano Country</text>
+  <text x="300" y="252" font-family="Georgia, serif" font-size="18" fill="#d4a870" text-anchor="middle" letter-spacing="6">New World</text>
+  <!-- Decorative rule with endpoints -->
+  <line x1="215" y1="265" x2="385" y2="265" stroke="#d4944a" stroke-width="1" opacity="0.35"/>
+  <circle cx="215" cy="265" r="2" fill="#d4944a" opacity="0.35"/>
+  <circle cx="385" cy="265" r="2" fill="#d4944a" opacity="0.35"/>
+</svg>
