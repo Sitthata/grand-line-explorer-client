@@ -31,7 +31,7 @@ export function CharacterCard({
           src={character.image_url}
           alt={character.name}
           fill
-          className="object-center"
+          className="object-top"
           unoptimized
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
