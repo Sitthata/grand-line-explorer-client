@@ -61,6 +61,20 @@ export async function createCharacter(
   return json.data;
 }
 
+export async function updateCharacter(
+  id: number,
+  character: Partial<Omit<Character, "id" | "island_name">>
+): Promise<Character> {
+  const res = await fetch(`${API_URL}/api/characters/${id}`, {
+    method: "PUT",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(character),
+  });
+  if (!res.ok) throw new Error("Failed to update character");
+  const json = await res.json();
+  return json.data;
+}
+
 export async function deleteCharacter(id: number): Promise<void> {
   const res = await fetch(`${API_URL}/api/characters/${id}`, {
     method: "DELETE",

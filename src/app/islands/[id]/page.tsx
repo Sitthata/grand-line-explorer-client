@@ -126,6 +126,7 @@ export default function IslandDetailPage() {
               key={character.id}
               character={character}
               onDelete={handleDelete}
+              onUpdate={loadData}
             />
           ))}
         </div>

@@ -25,7 +25,7 @@ export default function CharactersPage() {
 
   useEffect(() => {
     loadCharacters();
-  }, [loadCharacters]);
+  }, []);
 
   const handleDelete = async (id: number) => {
     try {
@@ -77,6 +77,7 @@ export default function CharactersPage() {
                 key={character.id}
                 character={character}
                 onDelete={handleDelete}
+                onUpdate={loadCharacters}
                 showIsland
               />
             ))}
